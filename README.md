@@ -9,16 +9,16 @@ The game continues until there is a winner, a draw (stalemate), or you choose to
 
 Game Board
 The game board is represented as a 3x3 grid, displayed in the console as follows:
-
+```
  1 | 2 | 3 
 -----------
  4 | 5 | 6 
 -----------
  7 | 8 | 9 
-
+```
 
 Example Gameplay
-
+```
 LET'S PLAY SOME XO!
 
 Enter your placement (1-9): 5
@@ -27,7 +27,7 @@ Enter your placement (1-9): 5
    | O |  
 -----------
    |   |  
-
+```
 Winner Conditions
 The game checks for the following winner conditions after each move:
 
