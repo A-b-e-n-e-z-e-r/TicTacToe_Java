@@ -1,8 +1,4 @@
-package trialclass;
-
 import java.util.*;
-
-
 public class TicTacToe3 {
 
     public static ArrayList<Integer> AIPosition = new ArrayList<>();
@@ -36,7 +32,7 @@ public class TicTacToe3 {
 
                 Placing(TicTacToe, userposition, "Player");
 
-                String EpicWinner = ChickenDinner();
+                String EpicWinner = WinnerWinnerChickenDinner();
                 if (EpicWinner.length() > 0) {
                     System.out.println(EpicWinner);
                     break;
@@ -51,7 +47,7 @@ public class TicTacToe3 {
 
                 TicTacToeboard(TicTacToe);
 
-                EpicWinner = ChickenDinner();
+                EpicWinner = WinnerWinnerChickenDinner();
                 if (EpicWinner.length() > 0) {
 
                 }
@@ -110,7 +106,7 @@ public class TicTacToe3 {
     }
 
     // ArrayLists of Lists (Winner Conditions),
-    public static String ChickenDinner() {
+    public static String WinnerWinnerChickenDinner() {
 
         List Rowup = Arrays.asList(1, 2, 3);
         List RowCenter = Arrays.asList(4, 5, 6);
